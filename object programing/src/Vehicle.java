@@ -4,6 +4,13 @@ public class Vehicle {
     private boolean airCon;
     private int mileage;
 
+    public Vehicle(int dateOfProduction, String model, boolean airCon, int mileage) {
+        this.dateOfProduction = dateOfProduction;
+        this.model = model;
+        this.airCon = airCon;
+        this.mileage = mileage;
+    }
+
     public void startEngine(){
         System.out.println("Silnik włączon");
     }

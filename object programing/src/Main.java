@@ -20,7 +20,7 @@ public class Main {
       Car Opel = new Car();
         Opel.startEngine();
 */
-
+/**
    Mazda V5 = new Mazda(2020, "v5", true, 666, "leather");
    V5.startEngine();
 
@@ -30,5 +30,15 @@ public class Main {
    Golf GTI = new Golf(1990, "5", false, 0, Drive.FWD);
    GTI.startEngine();
     }
+*/
 
+    Cat kot = new Cat();
+    kot.sound();
+    kot.sleep();
+
+    Dog pies= new Dog();
+    pies.sound();
+    pies.sleep();
+
+    }
 }
